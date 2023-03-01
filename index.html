@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            display:grid;
+            grid-template-columns: 30% 30%;
+            
+        }
+        .email{
+            display: flex;
+            position: relative;
+            top: 50px;
+            right:400px
+        }
+        .child3{
+            display: flex;
+            position: relative;
+            top: 20px;
+        }
+        .email{
+            display: grid;
+            grid-template-columns: 145%;
+        }
+        .star{
+            display: flex;
+            position: relative;
+            top:200px
+        }
+
+    .childnode{
+        display: grid;
+        grid-template-columns:auto auto auto auto auto;
+    }
+    .nod1,.nod2,.nod3,.nod4,.nod5{
+        display: flex;
+        position: relative;
+        left:150px ;
+
+    }
+
+.dot {
+height: 25px;
+width: 25px;
+background-color: #bbb;
+border-radius: 50%;
+display: inline-block;
+display: flex;
+position: relative;
+left:150px ;
+
+}
+
+.circle{
+    display: grid;
+    grid-template-columns:auto auto auto auto auto;
+}
+.purchase{
+    display: flex;
+    position: relative;
+    left:10px;
+    bottom:45px;
+}
+        
+    </style>
+</head>
+<body>
+    <b>Name</b>
+<div class="parent">
+    <div class="child1">
+        <input type="text"><br>
+        First
+        
+    </div >
+    <div class="child2">
+        <input type="text"><br>
+         last   
+        </div>
+    <b class="child3">Email</b>
+    <div class="email">
+    <input type="text">
+     </div>   
+</div> <br><br><br><br>
+<b>Your Exprience</b><br>
+<span style="font-size:100%;color:rgb(236, 146, 10);">&starf;</span>
+<span style="font-size:100%;color:rgb(236, 146, 10);">&starf;</span>
+<span style="font-size:100%;color:rgb(236, 146, 10);">&starf;</span>
+<span style="font-size:100%;color:rgb(236, 146, 10);">&starf;</span>
+<span style="font-size:100%;color:rgb(236, 146, 10);">&starf;</span><br>
+
+<p>Overall, how would you rale you exprience with us?</p>
+ <b>How satisfised are you with</b><br><br>
+ <div class="childnode"> 
+    <div class="nod1">Very Unsatisfied</div>
+    <div class="nod2">Satisfied</div>
+    <div class="nod3">Netural</div>
+    <div class="nod4">Satisfied</div>
+    <div class="nod5">Very satisfied</div>
+ </div><br>
+ <div  class ="circle" style="text-align:center">
+<span class="dot"></span>
+<span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <p class="purchase">Purchase</p>
+  </div><br>
+  <div  class ="circle" style="text-align:center">
+ <span class="dot"></span>
+ <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <p class="purchase">Service</p>
+  </div><br>
+  <div  class ="circle" style="text-align:center">
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <p class="purchase">Companyoverall</p>
+  </div><br>
+  <b>How likely are you to</b><br><br> 
+ <div class="childnode">
+    
+    <div class="nod1">Very unlikely</div>
+    <div class="nod2">unlikely</div>
+    <div class="nod3">Netural</div>
+    <div class="nod4">Likely</div>
+    <div class="nod5">Very likely</div>
+ </div><br>
+ 
+ <div  class ="circle" style="text-align:center">
+<span class="dot"></span>
+<span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <p class="purchase">Buy form us again</p>
+  </div><br>
+  <div  class ="circle" style="text-align:center">
+ <span class="dot"></span>
+ <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <p class="purchase">Recommend our <br> product to others
+  </p>
+  </div><br>
+  <div  class ="circle" style="text-align:center">
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <p class="purchase">Recommend our<br>company to others</p>
+  </div>
+  <b>Additonal comments or suggestions</b><br>
+  <form action="/action_page.php">
+  <textarea id="w3review" name="w3review" rows="4" cols="170">.</textarea>
+  <br>
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
